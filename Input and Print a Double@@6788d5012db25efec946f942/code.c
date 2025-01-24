@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main(){
-    float a,double;
+    float a;
     scanf("%f",&a);
-    //double=a*2;
     printf("You entered: %f",a);
 }
