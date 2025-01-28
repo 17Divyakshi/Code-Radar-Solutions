@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    char a;
-    scanf("%d",&a);
-    if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u' || a=='A' || a=='E' || a=='I' || a=='O' || a=='U')
+    char b;
+    scanf("%d",&b);
+    if(b=='a' || b=='e' || b=='i' || b=='o' || b=='u' || b=='A' || b=='E' || b=='I' || b=='O' || b=='U')
     printf("Vowel");
     else
     printf("Consonant");
