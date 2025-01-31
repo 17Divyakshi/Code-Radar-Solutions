@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include<math.h>
 int main() {
-    int e;
-    sacnf("%d",&e);
-    switch(e)
+    switch()
     {
         case 1:
         int a,b;
