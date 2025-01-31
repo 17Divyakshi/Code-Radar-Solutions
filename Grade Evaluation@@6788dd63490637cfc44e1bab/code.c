@@ -10,7 +10,7 @@ int main() {
     printf("Average");
     else if(a=='D')
     printf("Below Average");
-    else
+    else if(a=='F')
     printf("Fail");
     return 0;
 }
