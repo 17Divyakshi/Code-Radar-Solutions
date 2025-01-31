@@ -7,7 +7,7 @@ int main() {
     switch(c)
     {
         case 1:
-        printf("%d%d\n",a+b);
+        printf("%d%c%d\n",a+b);
         break;
         case 2:
         printf("%d\n",a-b);
