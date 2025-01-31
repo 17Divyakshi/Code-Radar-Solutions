@@ -7,9 +7,9 @@ int main() {
     switch()
     {
         case 1:
-        // int a,b;
-        // char c;
-        // scanf("%d%d%c",&a,&b,&c);
+        int a,b;
+        char c;
+        scanf("%d%d%c",&a,&b,&c);
         printf("%d",a+b);
         break;
         case 2:
