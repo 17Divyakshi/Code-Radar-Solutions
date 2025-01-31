@@ -7,16 +7,20 @@ int main() {
     switch(c)
     {
         case 1:
-        printf("%d\n",a+b);
+        int d=a+b;
+        printf("%d\n",d);
         break;
         case 2:
-        printf("%d\n",a-b);
+        int e=a-b;
+        printf("%d\n",e);
         break;
         case 3:
-        printf("%d\n",a*b);
+        int f=a*b;
+        printf("%d\n",f);
         break;
         case 4:
-        printf("%d\n",a/b);
+        g=a/b;
+        printf("%d\n",g);
         break;
         default:
         printf("error");
