@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<math.h>
 int main() {
     int e;
     sacnf("%d",&e);
@@ -23,7 +24,7 @@ int main() {
         printf("%d%c%d",a,c,b);
         break;
         defautl:
-        printf("");
+        printf("error");
     }
     return 0;
 }
