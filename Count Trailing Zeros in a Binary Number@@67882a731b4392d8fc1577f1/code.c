@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     unsigned int num;
     scanf("%u",&num);
-    printf("%d",_builtin_ctz(num));
+    printf("%d",__builtin_ctz(num));
     return 0;
 }
